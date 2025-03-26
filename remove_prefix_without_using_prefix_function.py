@@ -12,3 +12,5 @@ if string_input.startswith(prefix):
 # 4. Print the string without the prefix
     print(string_input[len(prefix):])
 
+else:
+    print(string_input)
