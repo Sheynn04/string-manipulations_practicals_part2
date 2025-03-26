@@ -2,3 +2,6 @@
 
 # 1. Ask for user input.
 string_input = input("Input any string:  ")
+
+# 2. Assign a suffix.
+ends_with = "dy"
