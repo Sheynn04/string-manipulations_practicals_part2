@@ -12,3 +12,5 @@ for char in string_input:
         swapped_string += chr(ord(char) - 32)
     else:
         swapped_string += char  # Keep non-alphabet characters the same
+# 3. Print the result.
+print(swapped_string)
