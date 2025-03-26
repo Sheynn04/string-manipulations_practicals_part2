@@ -5,3 +5,11 @@ string_input = input("Input any string: ")
 
 # 2. Access each character in the input.
 for char in string_input:
+
+# 3. Check if characters are upper. If yes print true, if no print false.
+    if not ("A" <= char <= "Z"):
+        print("False")
+        break
+    else:
+        print("True")
+
