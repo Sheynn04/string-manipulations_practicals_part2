@@ -2,3 +2,6 @@
 
 # 1. Assign a prefix.
 prefix = "ycz"
+
+# 2. Ask the user for string input.
+string_input = input("Input any string: ")
