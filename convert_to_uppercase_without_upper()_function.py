@@ -3,13 +3,15 @@
 # 1. Ask the useer to input.
 string_input = input("Input any string: ")
 
-# 2. Access each character in the input.
+# 2. Assign true to uppercase letters.
+is_upper = True
+
+# 3. Access each character in the input.
 for char in string_input:
 
-# 3. Check if characters are upper. If yes print true, if no print false.
+# 4. Check if characters are upper. If yes print true, if no print false.
     if not ("A" <= char <= "Z"):
-        print("False")
+        is_upper = False
         break
-    else:
-        print("True")
+print(is_upper)
 
