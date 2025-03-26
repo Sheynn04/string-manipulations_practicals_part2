@@ -5,3 +5,10 @@ prefix = "ycz"
 
 # 2. Ask the user for string input.
 string_input = input("Input any string: ")
+
+# 3. Use .startswith() function to remove the prefix we assigned earlier
+if string_input.startswith(prefix):
+
+# 4. Print the string without the prefix
+    print(string_input[len(prefix):])
+
