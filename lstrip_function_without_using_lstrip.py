@@ -5,3 +5,8 @@ string_input = input("Input anything with spaces on the front: ")
 
 # 2. Create a loop so we can access each character in the input 
 for i, char in enumerate(string_input):
+
+# 3. If the character at the front is a space, remove the character then print the rest.
+    if char != " ":
+        print(string_input[i:])
+        break
